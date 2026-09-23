@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pegadas do Bem</title>
+<link rel="icon" href="assets/img/icon_no_bg.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <a href="#" class="brand">
+      <img src="assets/img/icon_no_bg.png" alt="Pegadas do Bem">
+      <span>Pegadas do Bem</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#doar">O que Doar</a></li>
+      <li><a href="#parciais">Parciais</a></li>
+      <li><a href="#ongs">ONGs</a></li>
+      <li><a href="#equipe">Equipe</a></li>
+    </ul>
+    <a href="#onde" class="btn btn-primary" style="padding:11px 22px;font-size:.9rem;">Onde Doar</a>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </nav>
+</header>
+
+<section class="hero" id="sobre">
+  <div class="hero-grid wrap">
+    <div class="reveal">
+      <h1>Pequenas pegadas,<br>grandes transformações.</h1>
+      <p>Campanha de arrecadação de suprimentos para animais resgatados. Junte-se a nós e faça a diferença!</p>
+      <div class="hero-actions">
+        <a href="#doar" class="btn btn-primary">Ver Lista de Insumos</a>
+        <a href="#parciais" class="btn btn-outline">Ver Parciais</a>
+      </div>
+    </div>
+    <div class="paw-stage reveal">
+      <div class="paw-dot" style="width:180px;height:180px;top:0;right:0;"></div>
+      <div class="paw-dot" style="width:120px;height:120px;bottom:10px;left:0;background:var(--brown-deep);opacity:.08;"></div>
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 100 95 
+                C 130 95, 160 115, 150 142 
+                C 142 165, 118 172, 100 168 
+                C 82 172, 58 165, 50 142 
+                C 40 115, 70 95, 100 95 Z" 
+              fill="#EC893F"/>
+        <ellipse cx="36" cy="85" rx="17" ry="24" transform="rotate(-32 36 85)" fill="#EC893F"/>
+        <ellipse cx="76" cy="48" rx="18" ry="26" transform="rotate(-10 76 48)" fill="#EC893F"/>
+        <ellipse cx="124" cy="48" rx="18" ry="26" transform="rotate(10 124 48)" fill="#EC893F"/>
+        <ellipse cx="164" cy="85" rx="17" ry="24" transform="rotate(32 164 85)" fill="#EC893F"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section id="doar">
+  <div class="wrap">
+    <div class="eyebrow-title reveal">
+      <h2>O que podemos doar?</h2>
+      <p>Separe itens em bom estado — cada categoria ajuda de um jeito diferente.</p>
+    </div>
+    <div class="cards-grid">
+      <div class="donate-card reveal">
+        <div class="donate-icon">🐶</div>
+        <h3>Rações & Sachês</h3>
+        <p>Pacotes fechados ou bem vedados, para cães e gatos de todas as idades.</p>
+      </div>
+      <div class="donate-card reveal">
+        <div class="donate-icon">🛋️</div>
+        <h3>Têxteis & Conforto</h3>
+        <p>Mantas, toalhas, lençóis e caminhas para aquecer quem mais precisa.</p>
+      </div>
+      <div class="donate-card reveal">
+        <div class="donate-icon">🎾</div>
+        <h3>Acessórios & Brinquedos</h3>
+        <p>Coleiras, guias e brinquedos que trazem estímulo e alegria.</p>
+      </div>
+      <div class="donate-card reveal">
+        <div class="donate-icon">🧼</div>
+        <h3>Higiene & Remédios</h3>
+        <p>Shampoos, tapetes higiênicos e medicamentos dentro da validade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="onde">
+  <div class="wrap">
+    <div class="eyebrow-title reveal">
+      <h2>Onde podemos doar?</h2>
+      <p>Encontre o ponto de coleta mais próximo e faça sua contribuição.</p>
+    </div>
+    <div class="cards-grid">
+      <div class="donate-card reveal">
+        <div class="donate-icon">🏫</div>
+        <h3>Corredor Principal</h3>
+        <p>Caixa identificada logo na entrada, de fácil acesso para todos que passam diariamente.</p>
+      </div>
+      <div class="donate-card reveal">
+        <div class="donate-icon">📚</div>
+        <h3>Biblioteca</h3>
+        <p>Caixa localizada próximo ao balcão de atendimento, em um ambiente tranquilo para deixar sua doação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="thermo" id="parciais">
+  <div class="wrap">
+    <div class="eyebrow-title reveal">
+      <h2>Termômetro da arrecadação</h2>
+      <p>Acompanhe em tempo real o quanto a nossa comunidade já reuniu.</p>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-top"><span class="stat-label">Ração arrecadada</span><span class="stat-num" data-target="2" data-suffix=" kg">0 kg</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="10%"></div></div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-top"><span class="stat-label">Itens de conforto</span><span class="stat-num" data-target="4">0</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="15%"></div></div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-top"><span class="stat-label">Medicamentos & acessórios</span><span class="stat-num" data-target="1">0</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="5%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ongs">
+  <div class="wrap ong-wrap">
+    <div class="ong-card reveal">
+      <div class="ong-photo"><img src="assets/img/guapecada.png" alt="Guapecada"></div>
+    </div>
+    <div class="ong-text reveal">
+      <span class="ong-tag">Quem vamos ajudar</span>
+      <h3>Guapecada</h3>
+      <p>A Guapecada dedica-se ao resgate, cuidado e reabilitação de cães e gatos em situação de vulnerabilidade, sustentando o trabalho quase inteiramente com doações da comunidade.</p>
+    </div>
+  </div>
+</section>
+
+<section id="equipe">
+  <div class="wrap">
+    <div class="eyebrow-title reveal">
+      <h2>A equipe</h2>
+      <p>Alunos responsáveis pela organização do projeto Pegadas do Bem.</p>
+    </div>
+    <div class="team-grid">
+  <div class="team-card reveal">
+    <a href="https://www.instagram.com/mandatpx/" class="team-card-link" target="_blank" rel="noopener noreferrer">
+      <div class="team-avatar"><img src="assets/img/amanda.jpg" alt="Amanda"></div>
+      <h4>Amanda</h4>
+      <span>Parcerias</span>
+    </a>
+  </div>
+  <div class="team-card reveal">
+    <a href="https://www.instagram.com/enzo.felipe_siqueira/" class="team-card-link" target="_blank" rel="noopener noreferrer">
+      <div class="team-avatar"><img src="assets/img/enzof.jpg" alt="Enzo Felipe"></div>
+      <h4>Enzo Felipe</h4>
+      <span>Coleta de Recursos</span>
+    </a>
+  </div>
+  <div class="team-card reveal">
+    <a href="https://www.instagram.com/e.nzosouza/" class="team-card-link" target="_blank" rel="noopener noreferrer">
+      <div class="team-avatar">EG</div>
+      <h4>Enzo Gabriel</h4>
+      <span>Design e Mídia</span>
+    </a>
+  </div>
+  <div class="team-card reveal">
+    <a href="https://www.instagram.com/soarestpx/" class="team-card-link" target="_blank" rel="noopener noreferrer">
+      <div class="team-avatar">J</div>
+      <h4>João</h4>
+      <span>Triagem</span>
+    </a>
+  </div>
+  <div class="team-card reveal">
+    <a href="https://www.instagram.com/vitor.baade/" class="team-card-link" target="_blank" rel="noopener noreferrer">
+      <div class="team-avatar"><img src="assets/img/vitor.jpg" alt="Vitor"></div>
+      <h4>Vitor</h4>
+      <span>Documentação e Código</span>
+    </a>
+  </div>
+</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/icon_no_bg.png" alt="Pegadas do Bem">
+          <span>Pegadas do Bem</span>
+        </div>
+        <p>Uma campanha de arrecadação para dar conforto e cuidado a animais resgatados.</p>
+      </div>
+      <div>
+        <h4>Pontos de coleta</h4>
+        <p>Corredor Central</p>
+        <p>Biblioteca</p>
+      </div>
+      <div>
+        <h4>Período da campanha</h4>
+        <p>19 de outubro a 06 de novembro</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Obrigado por fazer parte dessa transformação. <br> &copy; 2026 Pegadas do Bem — Vitor Baade
+    </div>
+  </div>
+</footer>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
